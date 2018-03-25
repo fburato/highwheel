@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
 		<artifactId>highwheel-parent</artifactId>
-		<groupId>org.pitest</groupId>
+		<groupId>com.github.fburato</groupId>
 		<version>1.3-SNAPSHOT</version>
 	</parent>
 	<artifactId>highwheel-bytecode</artifactId>
@@ -14,12 +14,12 @@
 
 	<dependencies>
 		<dependency>
-			<groupId>org.pitest</groupId>
+			<groupId>com.github.fburato</groupId>
 			<artifactId>highwheel-parser</artifactId>
 			<version>${project.version}</version>
 		</dependency>
 		<dependency>
-			<groupId>org.pitest</groupId>
+			<groupId>com.github.fburato</groupId>
 			<artifactId>highwheel-maven</artifactId>
 			<version>${project.version}</version>
 		</dependency>
