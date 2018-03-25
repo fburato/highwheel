@@ -48,7 +48,7 @@ public class HighWheelIT {
 
   private void runHighwheel() throws VerificationException {
     verifier.executeGoal("compile");  
-    verifier.executeGoal("org.pitest:highwheel-maven:" + VERSION + ":analyse");  
+    verifier.executeGoal("com.github.fburato:highwheel-maven:" + VERSION + ":analyse");
   }
 
   private File prepare(String testPath) throws IOException,

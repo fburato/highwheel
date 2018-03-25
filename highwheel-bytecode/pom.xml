@@ -4,7 +4,7 @@
 	<parent>
 		<artifactId>highwheel-parent</artifactId>
 		<groupId>com.github.fburato</groupId>
-		<version>1.3-SNAPSHOT</version>
+		<version>2.0</version>
 	</parent>
 	<artifactId>highwheel-bytecode</artifactId>
 	<packaging>maven-plugin</packaging>
