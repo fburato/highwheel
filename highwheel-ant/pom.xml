@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
 		<artifactId>highwheel-parent</artifactId>
-		<groupId>org.pitest</groupId>
+		<groupId>com.github.fburato</groupId>
 		<version>1.3-SNAPSHOT</version>
 	</parent>
 	<artifactId>highwheel-ant</artifactId>
@@ -14,18 +14,18 @@
 
 	<dependencies>
 		<dependency>
-			<groupId>org.pitest</groupId>
+			<groupId>com.github.fburato</groupId>
 			<artifactId>highwheel-core</artifactId>
 			<version>${project.version}</version>
 		</dependency>
 		<dependency>
-			<groupId>org.pitest</groupId>
+			<groupId>com.github.fburato</groupId>
 			<artifactId>highwheel-parser</artifactId>
 			<version>${project.version}</version>
 		</dependency>
 
 		<dependency>
-			<groupId>org.apache.ant</groupId>
+			<groupId>com.github.fburato</groupId>
 			<artifactId>ant</artifactId>
 			<version>1.8.3</version>
 			<scope>provided</scope>
@@ -80,9 +80,9 @@
 							</transformers>
 							<artifactSet>
 								<includes>
-								    <include>org.pitest:highwheel-core</include>
-								    <include>org.pitest:highwheel-parser</include>
-								    <include>org.pitest:highwheel-model</include>
+								    <include>com.github.fburato:highwheel-core</include>
+								    <include>com.github.fburato:highwheel-parser</include>
+								    <include>com.github.fburato:highwheel-model</include>
 									<include>net.sf.jung:*</include>
 									<include>org.freehep:*</include>
 								    <include>net.sourceforge.collections:*</include>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>org.pitest</groupId>
+	<groupId>com.github.fburato</groupId>
 	<artifactId>highwheel-parent</artifactId>
 	<packaging>pom</packaging>
 	<version>1.3-SNAPSHOT</version>
@@ -9,9 +9,9 @@
 	<url>http://pitest.org</url>
 	<description>Visualise large class and package cycles</description>
 	<scm>
-		<connection>scm:git:https://github.com/hcoles/highwheel.git</connection>
-		<developerConnection>scm:git:https://github.com/hcoles/highwheel.git</developerConnection>
-		<url>https://github.com/hcoles/highwheel</url>
+		<connection>scm:git:https://github.com/fburato/highwheel.git</connection>
+		<developerConnection>scm:git:https://github.com/fburato/highwheel.git</developerConnection>
+		<url>https://github.com/fburato/highwheel</url>
 	  <tag>HEAD</tag>
   </scm>
 
@@ -29,6 +29,11 @@
 			<name>Henry Coles</name>
 			<email>henry@pitest.org</email>
 		</developer>
+    <developer>
+      <id>frank></id>
+      <name>Francesco Burato</name>
+      <email>frankburato-github@yahoo.com</email>
+    </developer>
 	</developers>
 
 	<modules>
